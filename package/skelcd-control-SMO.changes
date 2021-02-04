@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Feb  4 12:26:52 UTC 2021 - David Diaz <dgonzalez@suse.com>
+
+- Do not use proposal_settings_editable, which does not validate
+  because it is does not exist in storage-ng (bsc#1171423).
+- 5.0.1
+
+-------------------------------------------------------------------
 Wed Feb  3 08:10:57 UTC 2021 - jsrain@suse.com
 
 - install the hardware pattern by default
