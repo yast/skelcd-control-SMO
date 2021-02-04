@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Feb  5 14:57:56 UTC 2021 - David Diaz <dgonzalez@suse.com>
+
+- Set an "enforcing" SELinux proposal (jsc#SLE-17427).
+- 5.0.3
+
+-------------------------------------------------------------------
 Fri Feb  5 01:59:25 UTC 2021 - jsrain@suse.com
 
 - install the microos-selinux pattern by default (bsc#1181714)
