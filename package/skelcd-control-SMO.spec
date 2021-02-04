@@ -40,8 +40,8 @@ Source:         skelcd-control-SMO-%{version}.tar.bz2
 BuildRequires:  libxml2-tools
 # xsltproc
 BuildRequires:  libxslt-tools
-# RNG schema
-BuildRequires:  yast2-installation-control
+# RNG schema: selinux_mode and selinux_configurable introduced in 4.2.11
+BuildRequires:  yast2-installation-control >= 4.2.11
 # Generic Yast packages needed for the installer
 Requires:       autoyast2
 Requires:       yast2-add-on
