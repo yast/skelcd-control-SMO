@@ -1,0 +1,41 @@
+-------------------------------------------------------------------
+Wed Feb  3 08:10:57 UTC 2021 - jsrain@suse.com
+
+- install the hardware pattern by default
+
+-------------------------------------------------------------------
+Wed Nov 25 10:52:19 UTC 2020 - jsrain@suse.com
+
+- unify proposed partition sizes with openSUSE MicroOS
+
+-------------------------------------------------------------------
+Wed Oct 14 11:00:58 UTC 2020 - jsrain@suse.com
+
+- adapted to patterns rename
+
+-------------------------------------------------------------------
+Tue Sep  1 05:54:14 UTC 2020 - jsrain@suse.com
+
+- adapted version to 5.0
+- include product registration in the workflow
+
+-------------------------------------------------------------------
+Fri Aug 14 12:55:52 UTC 2020 - jsrain@suse.com
+
+- adapted to pattern renames
+
+-------------------------------------------------------------------
+Wed Aug 12 08:27:47 UTC 2020 - jsrain@suse.com
+
+- updated pattern names
+
+-------------------------------------------------------------------
+Tue Aug 11 12:31:29 UTC 2020 - jsrain@suse.com
+
+- obsolete skelcd-control-leanos
+
+-------------------------------------------------------------------
+Mon Aug 10 12:00:56 UTC 2020 - jsrain@suse.com
+
+- initial version
+- 4.0.0
