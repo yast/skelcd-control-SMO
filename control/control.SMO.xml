@@ -82,7 +82,7 @@ textdomain="control"
 	<default_patterns>microos-base microos-defaults microos-hardware</default_patterns>
 	Using the Container Host role's list of patterns by default
 -->
-	<default_patterns>microos-base microos-defaults microos-container_runtime microos-hardware</default_patterns>
+	<default_patterns>microos-base microos-defaults microos-container_runtime microos-hardware microos-selinux</default_patterns>
         <!-- bnc#876760: Explicitly selecting these (optional) patterns by default if they exist -->
         <optional_default_patterns>32bit</optional_default_patterns>
 
@@ -232,7 +232,7 @@ textdomain="control"
         <id>container_host_role</id>
 
         <software>
-            <default_patterns>microos-base microos-defaults microos-container_runtime microos-hardware</default_patterns>
+            <default_patterns>microos-base microos-defaults microos-container_runtime microos-hardware microos-selinux</default_patterns>
         </software>
 
         <order config:type="integer">200</order>
