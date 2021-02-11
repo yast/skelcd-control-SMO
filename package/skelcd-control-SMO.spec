@@ -1,7 +1,7 @@
 #
 # spec file for package skelcd-control-SMO
 #
-# Copyright (c) 2020 SUSE LLC
+# Copyright (c) 2021 SUSE LLC
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -27,21 +27,21 @@
 
 
 Name:           skelcd-control-SMO
-Version:        5.0.3
+Version:        5.0.4
 Release:        0
 Summary:        The SUSEM MicroOS Installation Control file
-License:        MIT
-Group:          Metapackages
 #
 ######################################################################
+License:        MIT
+Group:          Metapackages
 URL:            https://github.com/yast/skelcd-control-SMO
 Source:         skelcd-control-SMO-%{version}.tar.bz2
 # xmllint
 BuildRequires:  libxml2-tools
 # xsltproc
 BuildRequires:  libxslt-tools
-# RNG schema: selinux_mode and selinux_configurable introduced in 4.2.11
-BuildRequires:  yast2-installation-control >= 4.2.11
+# RNG schema: grouped selinux variables
+BuildRequires:  yast2-installation-control >= 4.2.12
 # Generic Yast packages needed for the installer
 Requires:       autoyast2
 Requires:       yast2-add-on
@@ -93,7 +93,7 @@ Requires:       yast2-vm
 %endif
 
 # avoid file conflict with SLES package
-Obsoletes:	skelcd-control-leanos
+Obsoletes:      skelcd-control-leanos
 
 %description
 This package contains the control file used for SUSE MicroOS installation.
