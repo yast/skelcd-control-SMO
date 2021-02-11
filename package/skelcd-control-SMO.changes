@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Feb 11 13:06:32 UTC 2021 - David Diaz <dgonzalez@suse.com>
+
+- Define selinux mode, configurable, and patterns values properly
+  (related to jsc#14342).
+- 5.0.4
+
+-------------------------------------------------------------------
 Fri Feb  5 14:57:56 UTC 2021 - David Diaz <dgonzalez@suse.com>
 
 - Set an "enforcing" SELinux proposal (jsc#SLE-17427).
