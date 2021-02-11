@@ -70,9 +70,12 @@ textdomain="control"
         <!-- bnc #431158: Adjusts /etc/sysconfig/security/POLKIT_DEFAULT_PRIVS if set -->
         <polkit_default_privs>restrictive</polkit_default_privs>
 
-        <!-- jsc#SLE-17427: Makes a SELinux proposal, using enforcing by default -->
-        <selinux_mode>enforcing</selinux_mode>
-        <selinux_configurable config:type="boolean">true</selinux_configurable>
+        <!-- jsc#SLE-17342: Makes a SELinux proposal, using enforcing by default -->
+        <selinux>
+          <mode>enforcing</mode>
+          <configurable config:type="boolean">true</configurable>
+          <patterns>microos-selinux</patterns>
+        </selinux>
 
     </globals>
 
