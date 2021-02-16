@@ -1,14 +1,14 @@
 -------------------------------------------------------------------
 Sun Feb 14 06:39:43 UTC 2021 - jsrain@suse.com
 
-- include firewall in the proposal (related to jsc#14342)
+- include firewall in the proposal (related to jsc#SLE-17342)
 - 5.0.5
 
 -------------------------------------------------------------------
 Thu Feb 11 13:06:32 UTC 2021 - David Diaz <dgonzalez@suse.com>
 
 - Define selinux mode, configurable, and patterns values properly
-  (related to jsc#14342).
+  (related to jsc#SLE-17342).
 - 5.0.4
 
 -------------------------------------------------------------------
