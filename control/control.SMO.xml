@@ -11,7 +11,7 @@ textdomain="control"
     <globals>
         <additional_kernel_parameters>swapaccount=1</additional_kernel_parameters>
         <enable_autologin config:type="boolean">false</enable_autologin>
-        <enable_firewall config:type="boolean">true</enable_firewall>
+        <enable_firewall config:type="boolean">false</enable_firewall>
         <firewall_enable_ssh config:type="boolean">true</firewall_enable_ssh>
         <enable_sshd config:type="boolean">true</enable_sshd>
         <timezone>UTC</timezone>
