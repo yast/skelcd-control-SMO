@@ -782,10 +782,12 @@ configured accordingly to match the use case of the role. &lt;/p&gt;</label>
                     <label>Perform Installation</label>
                     <name>kickoff</name>
                 </module>
-                <module>
+		<!--
+		<module>
                     <label>Perform Installation</label>
                     <name>autoimage</name>
-                </module>
+		</module>
+-->
                 <module>
                     <label>Perform Installation</label>
                     <name>rpmcopy</name>
