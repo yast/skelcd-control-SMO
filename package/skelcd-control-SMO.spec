@@ -27,7 +27,7 @@
 
 
 Name:           skelcd-control-SMO
-Version:        5.0.8
+Version:        5.1.0
 Release:        0
 Summary:        The SUSEM MicroOS Installation Control file
 #
@@ -88,6 +88,10 @@ Provides:       product_control
 Provides:       system-installation() = SMO
 # Architecture specific packages
 #
+%ifarch s390 s390x
+Requires:       yast2-reipl >= 3.1.4
+Requires:       yast2-s390
+%endif
 %ifarch %{ix86} x86_64
 Requires:       yast2-vm
 %endif
