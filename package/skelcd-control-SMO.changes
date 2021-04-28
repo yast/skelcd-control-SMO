@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Apr 28 08:25:15 UTC 2021 - jsrain@suse.com
+
+- fix the installation proposals for S/390x (bsc#1185366)
+- 5.1.1
+
+-------------------------------------------------------------------
 Wed Apr 21 08:25:14 UTC 2021 - jsrain@suse.com
 
 - remove inst_autoimage client (bsc#1184537)

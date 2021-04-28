@@ -417,38 +417,53 @@ configured accordingly to match the use case of the role. &lt;/p&gt;</label>
 
             <proposal_modules config:type="list">
                 <proposal_module>
-                    <name>clone</name>
-                    <presentation_order>95</presentation_order>
+                    <name>partitions</name>
+                    <presentation_order>10</presentation_order>
                 </proposal_module>
                 <proposal_module>
                     <name>cio_ignore</name>
                     <presentation_order>70</presentation_order>
                 </proposal_module>
                 <proposal_module>
-                    <name>hwinfo</name>
-                    <presentation_order>90</presentation_order>
-                </proposal_module>
-                <proposal_module>
                     <name>bootloader</name>
                     <presentation_order>40</presentation_order>
                 </proposal_module>
                 <proposal_module>
+                    <name>hwinfo</name>
+                    <presentation_order>80</presentation_order>
+                </proposal_module>
+                <proposal_module>
+                    <name>timezone</name>
+                    <presentation_order>25</presentation_order>
+                </proposal_module>
+                <proposal_module>
+                    <name>network</name>
+                    <presentation_order>30</presentation_order>
+                </proposal_module>
+                <proposal_module>
                     <name>kdump</name>
+                    <presentation_order>50</presentation_order>
+                </proposal_module>
+                <proposal_module>
+                    <name>ssh_import</name>
+                    <presentation_order>97</presentation_order>
+                </proposal_module>
+		<proposal_module>
+                    <name>clone</name>
+                    <presentation_order>99</presentation_order>
+                </proposal_module>
+                <proposal_module>
+                    <name>default_target</name>
                     <presentation_order>60</presentation_order>
+                </proposal_module>
+                <proposal_module>
+                    <name>firewall</name>
+                    <presentation_order>96</presentation_order>
                 </proposal_module>
                 <!-- software proposal should be computed almost at the end -->
                 <proposal_module>
                     <name>software</name>
-                    <presentation_order>35</presentation_order>
-                </proposal_module>
-                <!-- propose the default runlevel after software is selected, bnc #380141 -->
-                <proposal_module>
-                    <name>default_target</name>
-                    <presentation_order>75</presentation_order>
-                </proposal_module>
-                <proposal_module>
-                    <name>firewall</name>
-                    <presentation_order>50</presentation_order>
+                    <presentation_order>20</presentation_order>
                 </proposal_module>
             </proposal_modules>
         </proposal>
@@ -553,7 +568,6 @@ configured accordingly to match the use case of the role. &lt;/p&gt;</label>
             <proposal_modules config:type="list">
                 <proposal_module>hwinfo</proposal_module>
                 <proposal_module>update</proposal_module>
-                <proposal_module>add-on</proposal_module>
                 <proposal_module>dasd</proposal_module>
                 <proposal_module>zfcp</proposal_module>
                 <proposal_module>packages</proposal_module>
