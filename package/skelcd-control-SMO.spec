@@ -14,6 +14,16 @@
 
 # Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
+######################################################################
+#
+# IMPORTANT: Please do not change the control file or this spec file
+#   in build service directly, use
+#   https://github.com/yast/skelcd-control-SMO repository
+#
+#   See https://github.com/yast/skelcd-control-SMO/blob/master/CONTRIBUTING.md
+#   for more details.
+#
+######################################################################
 
 
 Name:           skelcd-control-SMO
