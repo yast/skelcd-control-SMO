@@ -501,7 +501,12 @@ configured accordingly to match the use case of the role. &lt;/p&gt;</label>
                     <name>hwinfo</name>
                     <presentation_order>80</presentation_order>
                 </proposal_module>
-                <!-- software proposal should be computed almost at the end -->
+                <!-- FaTE #303859 - simple network (in fact firewall) cfg in 1st stage -->
+                <proposal_module>
+                    <name>security</name>
+                    <presentation_order>99</presentation_order>
+                </proposal_module>
+                 <!-- software proposal should be computed almost at the end -->
                 <proposal_module>
                     <name>software</name>
                     <presentation_order>30</presentation_order>
@@ -511,12 +516,7 @@ configured accordingly to match the use case of the role. &lt;/p&gt;</label>
                     <name>default_target</name>
                     <presentation_order>70</presentation_order>
                 </proposal_module>
-                <!-- FaTE #303859 - simple network (in fact firewall) cfg in 1st stage -->
-                <proposal_module>
-                    <name>security</name>
-                    <presentation_order>99</presentation_order>
-                </proposal_module>
-                <!-- Fate #319624 - proposal and dialog for existing SSH host keys -->
+               <!-- Fate #319624 - proposal and dialog for existing SSH host keys -->
                 <proposal_module>
                     <name>ssh_import</name>
                     <presentation_order>90</presentation_order>
