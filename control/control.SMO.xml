@@ -645,12 +645,6 @@ configured accordingly to match the use case of the role. &lt;/p&gt;</label>
                     <enable_next>yes</enable_next>
                 </module>
                 <module>
-                    <label>Registration</label>
-                    <name>scc</name>
-                    <enable_back>yes</enable_back>
-                    <enable_next>yes</enable_next>
-                </module>
-                <module>
                     <label>System Analysis</label>
                     <name>system_analysis</name>
                     <enable_back>yes</enable_back>
