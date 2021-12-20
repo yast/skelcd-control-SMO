@@ -9,7 +9,7 @@ textdomain="control"
     <textdomain>control</textdomain>
 
     <globals>
-        <additional_kernel_parameters>swapaccount=1</additional_kernel_parameters>
+        <additional_kernel_parameters>swapaccount=1 security=selinux</additional_kernel_parameters>
         <enable_autologin config:type="boolean">false</enable_autologin>
         <enable_firewall config:type="boolean">false</enable_firewall>
         <firewall_enable_ssh config:type="boolean">true</firewall_enable_ssh>
