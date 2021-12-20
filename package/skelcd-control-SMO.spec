@@ -27,7 +27,7 @@
 
 
 Name:           skelcd-control-SMO
-Version:        5.1.2
+Version:        5.2.0
 Release:        0
 Summary:        The SUSEM MicroOS Installation Control file
 #

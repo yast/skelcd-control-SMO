@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Mon Dec 20 18:47:59 UTC 2021 - jsrain@suse.com
+
+- 5.2.0
+
+-------------------------------------------------------------------
 Fri Jul 16 06:05:32 UTC 2021 - jsrain@suse.com
 
 - replace firewall module with security in proposal (bsc#1188350)
