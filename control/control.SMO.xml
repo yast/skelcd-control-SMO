@@ -107,7 +107,7 @@ textdomain="control"
         <minimalistic_libzypp_config config:type="boolean">true</minimalistic_libzypp_config>
 
         <!-- boo#1124590 - Ensure correct product is selected -->
-	<select_product>SUSE-MicroOS</select_product>
+        <select_product>SUSE-MicroOS</select_product>
 
         <!-- Disable the CD/DVD installation medium after finishing the installation (jsc#SLE-3191, bsc#1192297) -->
         <disable_media_repo config:type="boolean">true</disable_media_repo>
