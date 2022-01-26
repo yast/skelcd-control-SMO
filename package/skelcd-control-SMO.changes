@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Wed Jan 26 07:35:21 UTC 2022 - jsrain@suse.com
+
+- require specific AutoYaST schema (jsc#SLE-18820)
+- disable the CD/DVD installation medium after finishing the
+  installation (bsc#1192297)
+- 5.2.2
+
+-------------------------------------------------------------------
 Tue Jan 18 09:41:25 UTC 2022 - David Diaz <dgonzalez@suse.com>
 
 - Add missing .glade file to avoid a crash when checking

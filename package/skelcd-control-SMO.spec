@@ -27,7 +27,7 @@
 
 
 Name:           skelcd-control-SMO
-Version:        5.2.1
+Version:        5.2.2
 Release:        0
 Summary:        The SUSE MicroOS Installation Control file
 #
@@ -95,6 +95,7 @@ Requires:       yast2-s390
 %ifarch %{ix86} x86_64
 Requires:       yast2-vm
 %endif
+Requires:	yast2-schema-micro
 
 # avoid file conflict with SLES package
 Obsoletes:      skelcd-control-leanos
