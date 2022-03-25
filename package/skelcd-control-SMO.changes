@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Fri Mar 25 12:07:40 UTC 2022 - jsrain@suse.com
+
+- append 'apparmor=0' instead 'security=selinux', because it gets
+  removed if YaST does not enable SELinux, resulting in AppArmor
+  being enabled (bsc#1197522)
+- 5.2.3
+
+-------------------------------------------------------------------
 Wed Jan 26 07:35:21 UTC 2022 - jsrain@suse.com
 
 - require specific AutoYaST schema (jsc#SLE-18820)
