@@ -87,7 +87,7 @@ textdomain="control"
 	    <mode>permissive</mode>
 	    <configurable config:type="boolean">true</configurable>
 	    <selectable config:type="boolean">true</selectable>
-	    <patterns>selinux</patterns>
+	    <patterns>microos-selinux</patterns>
 	  </selinux>
 	</lsm>
 
