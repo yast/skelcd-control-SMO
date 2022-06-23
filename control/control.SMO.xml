@@ -237,7 +237,7 @@ textdomain="control"
 
     <network>
         <force_static_ip config:type="boolean">false</force_static_ip>
-        <network_manager>never</network_manager>
+        <network_manager>always</network_manager>
         <startmode>auto</startmode>
     </network>
 
