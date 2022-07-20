@@ -10,7 +10,7 @@ textdomain="control"
 
     <globals>
         <additional_kernel_parameters>swapaccount=1 apparmor=0</additional_kernel_parameters>
-        <boot_timeout>3</boot_timeout>
+        <boot_timeout config:type="integer">3</boot_timeout>
         <enable_autologin config:type="boolean">false</enable_autologin>
         <enable_firewall config:type="boolean">false</enable_firewall>
         <firewall_enable_ssh config:type="boolean">true</firewall_enable_ssh>
