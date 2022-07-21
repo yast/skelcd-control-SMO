@@ -27,7 +27,7 @@
 
 
 Name:           skelcd-control-SMO
-Version:        5.3.1
+Version:        5.3.2
 Release:        0
 Summary:        The SUSE MicroOS Installation Control file
 #
