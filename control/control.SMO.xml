@@ -85,7 +85,7 @@ textdomain="control"
 
 	  <selinux>
 	    <!-- Set SELinux enforcing mode by default -->
-	    <mode>permissive</mode>
+	    <mode>enforcing</mode>
 	    <configurable config:type="boolean">true</configurable>
 	    <selectable config:type="boolean">true</selectable>
 	    <patterns>microos-selinux</patterns>

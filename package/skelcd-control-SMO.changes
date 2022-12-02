@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Dec  2 11:46:47 UTC 2022 - jsrain@suse.com
+
+- set SELinux to enforcing mode by-default
+- 5.4.0
+
+-------------------------------------------------------------------
 Wed Jul 20 21:59:41 UTC 2022 - jsrain@suse.com
 
 - reduce boot time-out to 3s (jsc#SMO-95)
